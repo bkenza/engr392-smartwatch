@@ -9,6 +9,10 @@ body {
     color: #fff;
 }
 
+a{
+    color: rgb(144, 241, 212);
+}
+
 .container {
     background-color: #333333;
     width: 90%;
@@ -40,7 +44,8 @@ body {
 }
 
 .display-4 {
-    color: #fff;
+    /* color: rgb(107, 86, 124); */
+    color: rgb(144, 241, 212);
 }
 .pricing {
     color: #000 !important;
@@ -61,6 +66,39 @@ body {
   }
 
 .carousel-text{
-    color: #000;
-    opacity: .6;
+    color: #fff;
+    /* opacity: .6; */
+}
+
+.d-block {
+    position: center;
+}
+
+.faq-header {
+    color: rgb(144, 241, 212);
+    margin-bottom: 45px;
+}
+
+.btn {
+    color:  #fff;
+    background:  rgb(6, 83, 60);
+    border-color:  rgb(6, 83, 60);;
+}
+
+.btn:hover {
+    color: white;
+    background-color:  rgb(6, 83, 60);
+    border-color:  rgb(6, 83, 60);
+}
+
+.tech1 {
+    padding-top: 100px;
+}
+
+.tech2 {
+    padding-top: 50px;
+}
+
+#bottom-tech {
+    padding: 50px;
 }
