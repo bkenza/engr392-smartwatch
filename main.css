@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
-
 body {
     background-color: #333333;
     width: 100%;
@@ -9,8 +8,13 @@ body {
     color: #fff;
 }
 
-a{
+a {
     color: rgb(144, 241, 212);
+}
+
+a:hover {
+    color: rgb(6, 83, 60);
+    text-decoration: none;
 }
 
 .container {
@@ -26,19 +30,21 @@ a{
 .row {
     text-align: center
 }
-.nav{
+
+.nav {
     margin-left: 0 4em 0 4em;
     width: auto;
     height: 5em;
 }
-.nav-link{
+
+.nav-link {
     color: #fff;
     font-size: 1.5em;
     font-family: 'Open Sans Condensed', sans-serif;
     margin-top: 0.5em;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     opacity: 0.8;
     color: #fff;
 }
@@ -47,9 +53,11 @@ a{
     /* color: rgb(107, 86, 124); */
     color: rgb(144, 241, 212);
 }
+
 .pricing {
     color: #000 !important;
 }
+
 .pricing-header {
     max-width: 700px;
 }
@@ -57,17 +65,22 @@ a{
 .lead {
     color: #fff;
 }
-  
+
 .card-deck .card {
     min-width: 220px;
     display: flex;
     position: relative;
     color: inherit
-  }
+}
 
-.carousel-text{
+.carousel-text {
     color: #fff;
     /* opacity: .6; */
+}
+
+h5.carousel-text {
+    color: rgb(144, 241, 212);
+    ;
 }
 
 .d-block {
@@ -80,15 +93,22 @@ a{
 }
 
 .btn {
-    color:  #fff;
-    background:  rgb(6, 83, 60);
-    border-color:  rgb(6, 83, 60);;
+    color: #fff;
+    background: rgb(6, 83, 60);
+    border-color: rgb(6, 83, 60);
+    ;
+}
+
+.btn-lg {
+    color: rgb(6, 83, 60);
+    background-color: #fff;
+    border-color: rgb(6, 83, 60);
 }
 
 .btn:hover {
     color: white;
-    background-color:  rgb(6, 83, 60);
-    border-color:  rgb(6, 83, 60);
+    background-color: rgb(6, 83, 60);
+    border-color: rgb(6, 83, 60);
 }
 
 .tech1 {
